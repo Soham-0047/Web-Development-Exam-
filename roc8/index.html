@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     body {
+    padding: 0;
+    margin: 0;
+    background-color:black;
+  }
+  #main {
+    max-height: 1000px;
+    max-width: 1000px;
+    margin-top: 5rem;
+    margin: 0 auto;
+    background-color: white;
+    
+    
+  }
+  .main-wrap{
+    
+    border: 1px solid white;
+    margin-top: 5rem;
+  }
+ 
+
+  .main-wrap nav{
+    display: flex;
+    justify-content: space-between;
+  }
+ .main-wrap nav #left{
+    max-width: 80%;
+ }
+ .main-wrap nav #right{
+    max-width:30%;
+ }
+ 
+ .main-wrap nav #right .r-icons{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px 20px;
+    column-gap: 20px;
+ }
+
+ .r-not, .r-pro{
+    width:1.6rem;
+    height:1.6rem;
+    background-position: center;
+    background-size: cover;
+ }
+ .box{
+    margin-top: 1.5rem;
+    
+
+ }
+ .box-wrap{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    row-gap: 20px;
+    padding:10px;
+    
+ }
+
+ .b{
+    width:50%;
+    height: 7rem;
+    margin:0 auto;
+    border: 1px solid blue;
+
+ }
+</style>
+<body>
+    <div id="main">
+        <div class="main-wrap">
+           <nav>
+            
+           <div id="left">
+
+            </div>
+
+
+            <div id="right">
+
+                <div class="r-icons"> 
+
+                    <div class="r-not">
+
+                     <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+            >
+                <path
+                fill-rule="evenodd"
+                d="M5.25 9a6.75 6.75 0 0113.5 0v.75c0 2.123.8 4.057 2.118 5.52a.75.75 0 01-.297 1.206c-1.544.57-3.16.99-4.831 1.243a3.75 3.75 0 11-7.48 0 24.585 24.585 0 01-4.831-1.244.75.75 0 01-.298-1.205A8.217 8.217 0 005.25 9.75V9zm4.502 8.9a2.25 2.25 0 104.496 0 25.057 25.057 0 01-4.496 0z"
+                clip-rule="evenodd"
+                />
+                      </svg>   
+                    </div>
+             
+                    <div class="r-pro">
+                         <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+        >
+            <path
+                fill-rule="evenodd"
+                d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+                clip-rule="evenodd"
+            />
+                      </svg>  
+                    </div>
+
+                     
+                </div>
+            
+        
+            
+            </div>
+          
+          </nav> 
+
+        <h2>Store</h2>
+
+        <div class="box">
+            <div class="box-wrap">
+                <div class="b">
+                    Meal Plan
+                </div>
+            </div>
+        </div>
+        </div>
+        
+       </div>
+</body>
+</html>
